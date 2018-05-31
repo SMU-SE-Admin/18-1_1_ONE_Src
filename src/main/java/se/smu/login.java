@@ -1,4 +1,4 @@
-package jikong;
+package se.smu;
 
 import java.util.*;
 
@@ -7,28 +7,29 @@ import javax.swing.*;
 import javax.swing.border.*;
 import java.awt.event.*;
 
-
 public class login extends JFrame{
-
 	private JPanel contentPane;
 	private JTextField textField;
 	private JTextField textField2;
 	
-	public login(HashMap<String,Account> map)
+	public login(final HashMap<String,Account> map)
 	{
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(200,200,400,400);
+		Color backcolor = new Color(228,247,186);
 		JPanel contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
+		contentPane.setBackground(backcolor);
 		contentPane.setLayout(null);
 		setContentPane(contentPane);
-		setTitle("jikong");
+		setTitle("Login");
 		//contentPane.setBackground(Color.WHITE);
 	
 	JLabel Label = new JLabel();
 	Label.setText("                	   로그인");
 	Label.setOpaque(true);
 	Label.setFont(new Font("돋음",Font.PLAIN,30));
+	Label.setBackground(backcolor);
 	Label.setBounds(0,0,400,75);
 	contentPane.add(Label);
 
@@ -36,6 +37,7 @@ public class login extends JFrame{
 	Label2.setText("아이디");
 	Label2.setOpaque(true);
 	Label2.setFont(new Font("돋음",Font.PLAIN,20));
+	Label2.setBackground(backcolor);
 	Label2.setBounds(50,80,60,40);
 	contentPane.add(Label2);
 	
@@ -43,6 +45,7 @@ public class login extends JFrame{
 	Label3.setText("비밀번호");
 	Label3.setOpaque(true);
 	Label3.setFont(new Font("돋음",Font.PLAIN,20));
+	Label3.setBackground(backcolor);
 	Label3.setBounds(50,130,100,40);
 	contentPane.add(Label3);
 	
@@ -161,7 +164,8 @@ public class login extends JFrame{
 							Account dicac = map.get(dicid);
 							if(ID.equals(dicid)&&PW.equals(dicac.getpasswd())) {
 								setVisible(false);
-								main frame = new main();
+								HashMap<Integer,List> todo = new HashMap<Integer,List>();
+								main frame = new main(1,todo);
 								frame.setVisible(true);
 								num++;
 							}
@@ -184,3 +188,4 @@ public class login extends JFrame{
 	contentPane.add(Button4);
 	}
 }
+
