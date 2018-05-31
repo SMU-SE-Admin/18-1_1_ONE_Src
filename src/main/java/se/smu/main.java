@@ -1,7 +1,6 @@
 package jikong;
 
 import java.util.*;
-
 import java.awt.*;
 import javax.swing.*;
 import java.awt.event.ActionListener;
@@ -41,49 +40,49 @@ public class main extends JFrame {
 		setTitle("MAIN");
 
 		JLabel Label = new JLabel();
-		Label.setText("                °ú¸ñµî·Ï");
+		Label.setText("                ê³¼ëª©ë“±ë¡");
 		Label.setOpaque(true);
-		Label.setFont(new Font("µ¸À½", Font.PLAIN, 20));
+		Label.setFont(new Font("ë‹ìŒ", Font.PLAIN, 20));
 		Label.setBounds(400, 5, 400, 20);
 		Label.setBackground(backcolor);
 		contentPane.add(Label);
 
 		JLabel Label1 = new JLabel();
-		Label1.setText("  °ú¸ñ¸í");
+		Label1.setText("  ê³¼ëª©ëª…");
 		Label1.setOpaque(true);
-		Label1.setFont(new Font("µ¸À½", Font.PLAIN, 13));
+		Label1.setFont(new Font("ë‹ìŒ", Font.PLAIN, 13));
 		Label1.setBounds(400, 30, 100, 30);
 		Label1.setBackground(backcolor);
 		contentPane.add(Label1);
 
 		JLabel Label2 = new JLabel();
-		Label2.setText("  ±³¼ö¸í");
+		Label2.setText("  êµìˆ˜ëª…");
 		Label2.setOpaque(true);
-		Label2.setFont(new Font("µ¸À½", Font.PLAIN, 13));
+		Label2.setFont(new Font("ë‹ìŒ", Font.PLAIN, 13));
 		Label2.setBounds(400, 55, 100, 30);
 		Label2.setBackground(backcolor);
 		contentPane.add(Label2);
 
 		JLabel Label3 = new JLabel();
-		Label3.setText("  ¼ö¾÷½Ã°£");
+		Label3.setText("  ìˆ˜ì—…ì‹œê°„");
 		Label3.setOpaque(true);
-		Label3.setFont(new Font("µ¸À½", Font.PLAIN, 13));
+		Label3.setFont(new Font("ë‹ìŒ", Font.PLAIN, 13));
 		Label3.setBounds(400, 80, 100, 30);
 		Label3.setBackground(backcolor);
 		contentPane.add(Label3);
 
 		JLabel Label4 = new JLabel();
-		Label4.setText("  ÇĞ³â");
+		Label4.setText("  í•™ë…„");
 		Label4.setOpaque(true);
-		Label4.setFont(new Font("µ¸À½", Font.PLAIN, 13));
+		Label4.setFont(new Font("ë‹ìŒ", Font.PLAIN, 13));
 		Label4.setBounds(400, 105, 100, 30);
 		Label4.setBackground(backcolor);
 		contentPane.add(Label4);
 
 		JLabel Label5 = new JLabel();
-		Label5.setText("  ÇĞ±â");
+		Label5.setText("  í•™ê¸°");
 		Label5.setOpaque(true);
-		Label5.setFont(new Font("µ¸À½", Font.PLAIN, 13));
+		Label5.setFont(new Font("ë‹ìŒ", Font.PLAIN, 13));
 		Label5.setBounds(400, 130, 100, 30);
 		Label5.setBackground(backcolor);
 		contentPane.add(Label5);
@@ -108,7 +107,7 @@ public class main extends JFrame {
 		tf5.setBounds(510, 130, 180, 25);
 		contentPane.add(tf5);
 
-		JButton Button = new JButton("  °ú¸ñµî·Ï");
+		JButton Button = new JButton("  ê³¼ëª©ë“±ë¡");
 
 		Button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -155,7 +154,7 @@ public class main extends JFrame {
 
 		contentPane.add(Button);
 
-		JTextField tf = new JTextField(10); // ÅØ½ºÆ®ÇÊµå ÃÊ±âÈ­
+		JTextField tf = new JTextField(10); // í…ìŠ¤íŠ¸í•„ë“œ ì´ˆê¸°í™”
 		tf.setBounds(10, 10, 130, 30);
 		contentPane.add(tf);
 
@@ -186,7 +185,7 @@ public class main extends JFrame {
 		}
 		scrollPane.setViewportView(table1);
 
-		JButton OK = new JButton("°Ë»ö");
+		JButton OK = new JButton("ê²€ìƒ‰");
 		OK.setBounds(145, 10, 80, 30);
 		contentPane.add(OK);
 
@@ -212,47 +211,47 @@ public class main extends JFrame {
 		});
 
 		JComboBox comboBox = new JComboBox();
-		comboBox.setModel(new DefaultComboBoxModel(new String[] { "°ú¸ñ¼ø", "¸¶°¨±âÇÑ¼ø", "½ÇÁ¦¸¶°¨ÀÏ¼ø", }));
+		comboBox.setModel(new DefaultComboBoxModel(new String[] { "ê³¼ëª©ìˆœ", "ë§ˆê°ê¸°í•œìˆœ", "ì‹¤ì œë§ˆê°ì¼ìˆœ", }));
 		comboBox.setBackground(backcolor);
 		comboBox.setBounds(300, 10, 100, 30);
 		contentPane.add(comboBox);
 
 		JLabel Label_2 = new JLabel();
-		Label_2.setText("                 todolistµî·Ï");
+		Label_2.setText("                 todolistë“±ë¡");
 		Label_2.setOpaque(true);
-		Label_2.setFont(new Font("µ¸À½", Font.PLAIN, 20));
+		Label_2.setFont(new Font("ë‹ìŒ", Font.PLAIN, 20));
 		Label_2.setBounds(400, 205, 400, 20);
 		Label_2.setBackground(backcolor);
 		contentPane.add(Label_2);
 
 		JLabel Label12 = new JLabel();
-		Label12.setText("  ¸¶°¨¿¹Á¤ÀÏ");
+		Label12.setText("  ë§ˆê°ì˜ˆì •ì¼");
 		Label12.setOpaque(true);
-		Label12.setFont(new Font("µ¸À½", Font.PLAIN, 13));
+		Label12.setFont(new Font("ë‹ìŒ", Font.PLAIN, 13));
 		Label12.setBounds(400, 230, 100, 30);
 		Label12.setBackground(backcolor);
 		contentPane.add(Label12);
 
 		JLabel Label22 = new JLabel();
-		Label22.setText("  ½ÇÁ¦¸¶°¨ÀÏ");
+		Label22.setText("  ì‹¤ì œë§ˆê°ì¼");
 		Label22.setOpaque(true);
-		Label22.setFont(new Font("µ¸À½", Font.PLAIN, 13));
+		Label22.setFont(new Font("ë‹ìŒ", Font.PLAIN, 13));
 		Label22.setBounds(400, 255, 100, 30);
 		Label22.setBackground(backcolor);
 		contentPane.add(Label22);
 
 		JLabel Label32 = new JLabel();
-		Label32.setText("  ¿Ï·á¿©ºÎ");
+		Label32.setText("  ì™„ë£Œì—¬ë¶€");
 		Label32.setOpaque(true);
-		Label32.setFont(new Font("µ¸À½", Font.PLAIN, 13));
+		Label32.setFont(new Font("ë‹ìŒ", Font.PLAIN, 13));
 		Label32.setBounds(400, 280, 100, 30);
 		Label32.setBackground(backcolor);
 		contentPane.add(Label32);
 
 		JLabel Label42 = new JLabel();
-		Label42.setText("  ³»¿ë");
+		Label42.setText("  ë‚´ìš©");
 		Label42.setOpaque(true);
-		Label42.setFont(new Font("µ¸À½", Font.PLAIN, 13));
+		Label42.setFont(new Font("ë‹ìŒ", Font.PLAIN, 13));
 		Label42.setBounds(400, 305, 100, 30);
 		Label42.setBackground(backcolor);
 		contentPane.add(Label42);
@@ -273,7 +272,7 @@ public class main extends JFrame {
 		tf42.setBounds(510, 305, 180, 100);
 		contentPane.add(tf42);
 
-		JButton Button31 = new JButton("  todolistµî·Ï");
+		JButton Button31 = new JButton("  todolistë“±ë¡");
 
 		Button31.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -345,7 +344,7 @@ public class main extends JFrame {
 
 		scrollPane_1.setViewportView(table);
 
-		JButton Button2 = new JButton("¼öÁ¤");
+		JButton Button2 = new JButton("ìˆ˜ì •");
 
 		Button2.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -363,28 +362,28 @@ public class main extends JFrame {
 
 								String mo = s1 + " " + s2 + " " + s3 + " " + s4;
 								
-								String dummy = "¸¶°¨¿¹Á¤ÀÏ ½ÇÁ¦¸¶°¨ÀÏ ¿Ï·á¿©ºÎ ³»¿ë \r\n";
+								String dummy = "ë§ˆê°ì˜ˆì •ì¼ ì‹¤ì œë§ˆê°ì¼ ì™„ë£Œì—¬ë¶€ ë‚´ìš© \r\n";
 
 								FileReader filer = new FileReader("todolist.txt");
 								BufferedReader inf = new BufferedReader(filer);
 								String li = inf.readLine();
 
-								// 1. »èÁ¦ÇÏ°íÀÚ ÇÏ´Â position ÀÌÀü±îÁö´Â ÀÌµ¿ÇÏ¸ç dummy¿¡ ÀúÀå
+								// 1. ì‚­ì œí•˜ê³ ì í•˜ëŠ” position ì´ì „ê¹Œì§€ëŠ” ì´ë™í•˜ë©° dummyì— ì €ì¥
 								String line;
 								for (int i = 0; i < j1; i++) {
-									line = inf.readLine(); // ÀĞÀ¸¸ç ÀÌµ¿
+									line = inf.readLine(); // ì½ìœ¼ë©° ì´ë™
 									dummy += (line + "\r\n");
 								}
 
-								// 2. ¼öÁ¤ÇÏ°íÀÚ ÇÏ´Â µ¥ÀÌÅÍ
+								// 2. ìˆ˜ì •í•˜ê³ ì í•˜ëŠ” ë°ì´í„°
 								dummy += (mo + "\r\n");
 								inf.readLine();
 								
-								// 3. »èÁ¦ÇÏ°íÀÚ ÇÏ´Â position ÀÌÈÄºÎÅÍ dummy¿¡ ÀúÀå
+								// 3. ì‚­ì œí•˜ê³ ì í•˜ëŠ” position ì´í›„ë¶€í„° dummyì— ì €ì¥
 								while ((line = inf.readLine()) != null) {
 									dummy += (line + "\r\n");
 								}
-								// 4. FileWriter¸¦ ÀÌ¿ëÇØ¼­ µ¤¾î¾²±â
+								// 4. FileWriterë¥¼ ì´ìš©í•´ì„œ ë®ì–´ì“°ê¸°
 								FileWriter filewr = new FileWriter("todolist.txt");
 
 								filewr.write(dummy);
@@ -401,28 +400,28 @@ public class main extends JFrame {
 								String s5 = table1.getModel().getValueAt(j1, 4).toString();
 								String mo2 = s1 + " " + s2 + " " + s3 + " " + s4 + " " + s5;
 
-								String dummy2 = "°ú¸ñ¸í ±³¼ö¸í ¼ö¾÷½Ã°£ ÇĞ³â ÇĞ±â\r\n";
+								String dummy2 = "ê³¼ëª©ëª… êµìˆ˜ëª… ìˆ˜ì—…ì‹œê°„ í•™ë…„ í•™ê¸°\r\n";
 								
 								FileReader filer2 = new FileReader("subject.txt");
 								BufferedReader inf2 = new BufferedReader(filer2);
 								String li2 = inf2.readLine();
 
-								// 1. »èÁ¦ÇÏ°íÀÚ ÇÏ´Â position ÀÌÀü±îÁö´Â ÀÌµ¿ÇÏ¸ç dummy¿¡ ÀúÀå
+								// 1. ì‚­ì œí•˜ê³ ì í•˜ëŠ” position ì´ì „ê¹Œì§€ëŠ” ì´ë™í•˜ë©° dummyì— ì €ì¥
 								String line2;
 								for (int i = 0; i < j2; i++) {
-									line2 = inf2.readLine(); // ÀĞÀ¸¸ç ÀÌµ¿
+									line2 = inf2.readLine(); // ì½ìœ¼ë©° ì´ë™
 									dummy2 += (line2 + "\r\n");
 								}
 
-								// 2. ¼öÁ¤ÇÏ°íÀÚ ÇÏ´Â µ¥ÀÌÅÍ
+								// 2. ìˆ˜ì •í•˜ê³ ì í•˜ëŠ” ë°ì´í„°
 								dummy2 += (mo2 + "\r\n");
 								inf2.readLine();
 
-								// 3. »èÁ¦ÇÏ°íÀÚ ÇÏ´Â position ÀÌÈÄºÎÅÍ dummy¿¡ ÀúÀå
+								// 3. ì‚­ì œí•˜ê³ ì í•˜ëŠ” position ì´í›„ë¶€í„° dummyì— ì €ì¥
 								while ((line2 = inf2.readLine()) != null) {
 									dummy2 += (line2 + "\r\n");
 								}
-								// 4. FileWriter¸¦ ÀÌ¿ëÇØ¼­ µ¤¾î¾²±â
+								// 4. FileWriterë¥¼ ì´ìš©í•´ì„œ ë®ì–´ì“°ê¸°
 								FileWriter filewr2 = new FileWriter("subject.txt");
 
 								filewr2.write(dummy2);
@@ -431,7 +430,7 @@ public class main extends JFrame {
 								filewr2.close();
 							}
 							
-							System.out.println("¼öÁ¤µÇ¾ú½À´Ï´Ù.");
+							System.out.println("ìˆ˜ì •ë˜ì—ˆìŠµë‹ˆë‹¤.");
 
 						} catch (Exception e) {
 							e.printStackTrace();
@@ -443,42 +442,42 @@ public class main extends JFrame {
 		Button2.setBounds(0, 420, 100, 40);
 		contentPane.add(Button2);
 
-		JButton Button3 = new JButton("»èÁ¦");
+		JButton Button3 = new JButton("ì‚­ì œ");
 
 		Button3.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				EventQueue.invokeLater(new Runnable() {
 					public void run() {
 						try {
-							// »èÁ¦ ·ÎÁ÷ Ãß°¡
+							// ì‚­ì œ ë¡œì§ ì¶”ê°€
 							DefaultTableModel model1 = (DefaultTableModel) table1.getModel();
 
 							int j1 = table1.getSelectedRow();
 							model1.removeRow(j1);
 
-							System.out.println("»èÁ¦µÇ¾ú½À´Ï´Ù.");
+							System.out.println("ì‚­ì œë˜ì—ˆìŠµë‹ˆë‹¤.");
 
-							String dummy = "°ú¸ñ¸í ±³¼ö¸í ¼ö¾÷½Ã°£ ÇĞ³â ÇĞ±â\r\n";
+							String dummy = "ê³¼ëª©ëª… êµìˆ˜ëª… ìˆ˜ì—…ì‹œê°„ í•™ë…„ í•™ê¸°\r\n";
 
 							FileReader filer = new FileReader("subject.txt");
 							BufferedReader inf = new BufferedReader(filer);
 							String li = inf.readLine();
 
-							// 1. »èÁ¦ÇÏ°íÀÚ ÇÏ´Â position ÀÌÀü±îÁö´Â ÀÌµ¿ÇÏ¸ç dummy¿¡ ÀúÀå
+							// 1. ì‚­ì œí•˜ê³ ì í•˜ëŠ” position ì´ì „ê¹Œì§€ëŠ” ì´ë™í•˜ë©° dummyì— ì €ì¥
 							String line;
 							for (int i = 0; i < j1; i++) {
-								line = inf.readLine(); // ÀĞÀ¸¸ç ÀÌµ¿
+								line = inf.readLine(); // ì½ìœ¼ë©° ì´ë™
 								dummy += (line + "\r\n");
 							}
 
-							// 2. »èÁ¦ÇÏ°íÀÚ ÇÏ´Â µ¥ÀÌÅÍ´Â °Ç³Ê¶Ù±â
+							// 2. ì‚­ì œí•˜ê³ ì í•˜ëŠ” ë°ì´í„°ëŠ” ê±´ë„ˆë›°ê¸°
 							String delData = inf.readLine();
 
-							// 3. »èÁ¦ÇÏ°íÀÚ ÇÏ´Â position ÀÌÈÄºÎÅÍ dummy¿¡ ÀúÀå
+							// 3. ì‚­ì œí•˜ê³ ì í•˜ëŠ” position ì´í›„ë¶€í„° dummyì— ì €ì¥
 							while ((line = inf.readLine()) != null) {
 								dummy += (line + "\r\n");
 							}
-							// 4. FileWriter¸¦ ÀÌ¿ëÇØ¼­ µ¤¾î¾²±â
+							// 4. FileWriterë¥¼ ì´ìš©í•´ì„œ ë®ì–´ì“°ê¸°
 							FileWriter filewr = new FileWriter("subject.txt");
 
 							filewr.write(dummy);
@@ -496,42 +495,42 @@ public class main extends JFrame {
 		Button3.setBounds(150, 190, 100, 30);
 		contentPane.add(Button3);
 
-		JButton Button33 = new JButton("»èÁ¦");
+		JButton Button33 = new JButton("ì‚­ì œ");
 
 		Button33.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
 				EventQueue.invokeLater(new Runnable() {
 					public void run() {
 						try {
-							// »èÁ¦ ·ÎÁ÷ Ãß°¡
+							// ì‚­ì œ ë¡œì§ ì¶”ê°€
 
 							DefaultTableModel model2 = (DefaultTableModel) table.getModel();
 							int j2 = table.getSelectedRow();
 							model2.removeRow(j2);
 							
-							System.out.println("»èÁ¦µÇ¾ú½À´Ï´Ù.");
+							System.out.println("ì‚­ì œë˜ì—ˆìŠµë‹ˆë‹¤.");
 
-							String dummy = "¸¶°¨¿¹Á¤ÀÏ ½ÇÁ¦¸¶°¨ÀÏ ¿Ï·á¿©ºÎ ³»¿ë\r\n";
+							String dummy = "ë§ˆê°ì˜ˆì •ì¼ ì‹¤ì œë§ˆê°ì¼ ì™„ë£Œì—¬ë¶€ ë‚´ìš©\r\n";
 
 							FileReader filer = new FileReader("todolist.txt");
 							BufferedReader inf = new BufferedReader(filer);
 							String li = inf.readLine();
 
-							// 1. »èÁ¦ÇÏ°íÀÚ ÇÏ´Â position ÀÌÀü±îÁö´Â ÀÌµ¿ÇÏ¸ç dummy¿¡ ÀúÀå
+							// 1. ì‚­ì œí•˜ê³ ì í•˜ëŠ” position ì´ì „ê¹Œì§€ëŠ” ì´ë™í•˜ë©° dummyì— ì €ì¥
 							String line;
 							for (int i = 0; i < j2; i++) {
-								line = inf.readLine(); // ÀĞÀ¸¸ç ÀÌµ¿
+								line = inf.readLine(); // ì½ìœ¼ë©° ì´ë™
 								dummy += (line + "\r\n");
 							}
 
-							// 2. »èÁ¦ÇÏ°íÀÚ ÇÏ´Â µ¥ÀÌÅÍ´Â °Ç³Ê¶Ù±â
+							// 2. ì‚­ì œí•˜ê³ ì í•˜ëŠ” ë°ì´í„°ëŠ” ê±´ë„ˆë›°ê¸°
 							String delData = inf.readLine();
 
-							// 3. »èÁ¦ÇÏ°íÀÚ ÇÏ´Â position ÀÌÈÄºÎÅÍ dummy¿¡ ÀúÀå
+							// 3. ì‚­ì œí•˜ê³ ì í•˜ëŠ” position ì´í›„ë¶€í„° dummyì— ì €ì¥
 							while ((line = inf.readLine()) != null) {
 								dummy += (line + "\r\n");
 							}
-							// 4. FileWriter¸¦ ÀÌ¿ëÇØ¼­ µ¤¾î¾²±â
+							// 4. FileWriterë¥¼ ì´ìš©í•´ì„œ ë®ì–´ì“°ê¸°
 							FileWriter filewr = new FileWriter("todolist.txt");
 
 							filewr.write(dummy);
@@ -550,7 +549,7 @@ public class main extends JFrame {
 		Button33.setBounds(150, 380, 100, 30);
 		contentPane.add(Button33);
 
-		JButton Button4 = new JButton("¼û±â±â");
+		JButton Button4 = new JButton("ìˆ¨ê¸°ê¸°");
 
 		Button4.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
@@ -568,7 +567,7 @@ public class main extends JFrame {
 		Button4.setBounds(150, 420, 100, 40);
 		contentPane.add(Button4);
 
-		JButton Button5 = new JButton("º¸ÀÌ±â");
+		JButton Button5 = new JButton("ë³´ì´ê¸°");
 
 		Button5.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent arg0) {
