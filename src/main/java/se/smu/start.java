@@ -1,4 +1,4 @@
-package se.smu;
+package jikong;
 
 import java.util.*;
 

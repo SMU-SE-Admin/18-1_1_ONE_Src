@@ -1,4 +1,4 @@
-package se.smu;
+package jikong;
 
 
 import java.util.*;
@@ -13,7 +13,7 @@ import javax.swing.table.DefaultTableModel;
 public class searchpwok extends JFrame{
 private JPanel contentPane;
 	
-	public searchpwok(final HashMap<String,Account> map,String ID,int ok)
+	public searchpwok(HashMap<String,Account> map,String ID,int ok)
 	{
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(200, 200, 400, 150);

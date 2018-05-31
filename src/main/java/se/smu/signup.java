@@ -1,4 +1,4 @@
-package se.smu;
+package jikong;
 
 
 import java.util.*;
@@ -18,7 +18,7 @@ public class signup extends JFrame{
 	private JTextField textField4;
 	private JTextField textField5;
 
-	public signup(final HashMap<String,Account> map)
+	public signup(HashMap<String,Account> map)
 	{
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(200,200,380,500);

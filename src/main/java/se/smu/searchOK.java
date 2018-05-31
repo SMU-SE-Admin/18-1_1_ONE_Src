@@ -1,4 +1,4 @@
-package se.smu;
+package jikong;
 
 
 import java.util.*;
@@ -15,7 +15,7 @@ public class searchOK extends JFrame{
 
 private JPanel contentPane;
 	
-	public searchOK(final HashMap<String,Account> map,String dicid,int ok)
+	public searchOK(HashMap<String,Account> map,String dicid,int ok)
 	{
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(200, 200, 400, 170);

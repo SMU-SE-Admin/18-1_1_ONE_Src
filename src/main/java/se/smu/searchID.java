@@ -1,4 +1,4 @@
-package se.smu;
+package jikong;
 
 import java.util.*;
 
@@ -14,7 +14,7 @@ public class searchID extends JFrame{
 	private JPanel contentPane;
 	private JTextField textField;
 
-	public searchID(final HashMap<String,Account> map)
+	public searchID(HashMap<String,Account> map)
 	{
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(200, 200, 400, 170);

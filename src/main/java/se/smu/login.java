@@ -1,4 +1,4 @@
-package se.smu;
+package jikong;
 
 import java.util.*;
 
@@ -12,7 +12,7 @@ public class login extends JFrame{
 	private JTextField textField;
 	private JTextField textField2;
 	
-	public login(final HashMap<String,Account> map)
+	public login(HashMap<String,Account> map)
 	{
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(200,200,400,400);

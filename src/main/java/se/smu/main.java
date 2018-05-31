@@ -1,4 +1,4 @@
-package se.smu;
+package jikong;
 
 import java.util.*;
 
@@ -155,7 +155,7 @@ public class main extends JFrame {
 
 		contentPane.add(Button);
 
-		final JTextField tf = new JTextField(10); // 텍스트필드 초기화
+		JTextField tf = new JTextField(10); // 텍스트필드 초기화
 		tf.setBounds(10, 10, 130, 30);
 		contentPane.add(tf);
 

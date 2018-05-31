@@ -1,4 +1,4 @@
-package se.smu;
+package jikong;
 
 
 import java.util.*;
@@ -15,7 +15,7 @@ public class searchpw extends JFrame{
 	private JPanel contentPane;
 	private JTextField textField;
 
-	public searchpw(final HashMap<String,Account> map)
+	public searchpw(HashMap<String,Account> map)
 	{
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(200, 200, 400, 150);
