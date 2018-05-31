@@ -1,4 +1,4 @@
-package jikong;
+package se.smu;
 
 import java.util.*;
 
@@ -9,14 +9,12 @@ import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.table.DefaultTableModel;
 
-
 public class searchID extends JFrame{
-	
-	
+
 	private JPanel contentPane;
 	private JTextField textField;
 
-	public searchID(HashMap<String,Account> map)
+	public searchID(final HashMap<String,Account> map)
 	{
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(200, 200, 400, 170);
@@ -89,5 +87,5 @@ public class searchID extends JFrame{
 		contentPane.add(Button);
 
 	}
-
 }
+
