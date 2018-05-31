@@ -1,7 +1,6 @@
 package jikong;
 
 import java.util.*;
-
 import java.awt.*;
 import javax.swing.*;
 
@@ -28,28 +27,28 @@ public class todolist extends JFrame{
 		JLabel Label = new JLabel();
 		Label.setText("            TO DO LIST");
 		Label.setOpaque(true);
-		Label.setFont(new Font("µ¸À½",Font.PLAIN,30));
+		Label.setFont(new Font("ë‹ìŒ",Font.PLAIN,30));
 		Label.setBounds(0,0,350,75);
 		contentPane.add(Label);
 		
 		JLabel Label1 = new JLabel();
-		Label1.setText("¸¶°¨ ¿¹Á¤ÀÏ");
+		Label1.setText("ë§ˆê° ì˜ˆì •ì¼");
 		Label1.setOpaque(true);
-		Label1.setFont(new Font("µ¸À½",Font.PLAIN,13));
+		Label1.setFont(new Font("ë‹ìŒ",Font.PLAIN,13));
 		Label1.setBounds(0,150,100,30);
 		contentPane.add(Label1);
 		
 		JLabel Label2 = new JLabel();
-		Label2.setText("½ÇÁ¦ ¸¶°¨ÀÏ");
+		Label2.setText("ì‹¤ì œ ë§ˆê°ì¼");
 		Label2.setOpaque(true);
-		Label2.setFont(new Font("µ¸À½",Font.PLAIN,13));
+		Label2.setFont(new Font("ë‹ìŒ",Font.PLAIN,13));
 		Label2.setBounds(0,200,100,30);
 		contentPane.add(Label2);
 		
 		JLabel Label3 = new JLabel();
-		Label3.setText(" ¿Ï·á¿©ºÎ");
+		Label3.setText(" ì™„ë£Œì—¬ë¶€");
 		Label3.setOpaque(true);
-		Label3.setFont(new Font("µ¸À½",Font.PLAIN,13));
+		Label3.setFont(new Font("ë‹ìŒ",Font.PLAIN,13));
 		Label3.setBounds(0,250,100,30);
 		contentPane.add(Label3);
 		
@@ -70,7 +69,7 @@ public class todolist extends JFrame{
 		textField2.setBounds(100,200,210,30);
 		contentPane.add(textField2);
 
-		JButton Button = new JButton("µî·Ï");
+		JButton Button = new JButton("ë“±ë¡");
 		Button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				EventQueue.invokeLater(new Runnable() {
@@ -86,9 +85,9 @@ public class todolist extends JFrame{
 		});
 		Button.setBounds(15, 300, 100, 30);
 	
-		Button.setFont(new Font("µ¸À½", Font.PLAIN, 15));
+		Button.setFont(new Font("ë‹ìŒ", Font.PLAIN, 15));
 		contentPane.add(Button);
-		JButton Button1 = new JButton("Á¾·á");
+		JButton Button1 = new JButton("ì¢…ë£Œ");
 		Button1.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				EventQueue.invokeLater(new Runnable() {
@@ -106,7 +105,7 @@ public class todolist extends JFrame{
 		});
 		Button1.setBounds(205, 300, 100, 30);
 	
-		Button1.setFont(new Font("µ¸À½", Font.PLAIN, 15));
+		Button1.setFont(new Font("ë‹ìŒ", Font.PLAIN, 15));
 		contentPane.add(Button1);
 	}
 
