@@ -1,4 +1,5 @@
-package jikong;
+package se.smu;
+
 
 import java.util.*;
 
@@ -9,7 +10,7 @@ import javax.swing.border.*;
 import java.awt.event.*;
 
 public class signup extends JFrame{
-	
+
 	private JPanel contentPane;
 	private JTextField textField;
 	private JTextField textField2;
@@ -17,13 +18,15 @@ public class signup extends JFrame{
 	private JTextField textField4;
 	private JTextField textField5;
 
-	public signup(HashMap<String,Account> map)
+	public signup(final HashMap<String,Account> map)
 	{
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(200,200,380,500);
+		Color backcolor = new Color(228,247,186);
 		JPanel contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
 		contentPane.setLayout(null);
+		contentPane.setBackground(backcolor);
 		setContentPane(contentPane);
 		setTitle("회원가입");
 		
@@ -31,6 +34,7 @@ public class signup extends JFrame{
 		Label.setText("             회원가입");
 		Label.setOpaque(true);
 		Label.setFont(new Font("돋음",Font.PLAIN,30));
+		Label.setBackground(backcolor);
 		Label.setBounds(10,0,350,75);
 		contentPane.add(Label);
 		
@@ -38,6 +42,7 @@ public class signup extends JFrame{
 		Label1.setText("아이디");
 		Label1.setOpaque(true);
 		Label1.setFont(new Font("돋음",Font.PLAIN,20));
+		Label1.setBackground(backcolor);
 		Label1.setBounds(10,110,100,40);
 		contentPane.add(Label1);
 		
@@ -45,12 +50,14 @@ public class signup extends JFrame{
 		Label2.setText("비밀번호");
 		Label2.setOpaque(true);
 		Label2.setFont(new Font("돋음",Font.PLAIN,20));
+		Label2.setBackground(backcolor);
 		Label2.setBounds(10,160,100,40);
 		contentPane.add(Label2);
 		
 		JLabel Label3 = new JLabel();
 		Label3.setText("비밀번호확인");
 		Label3.setOpaque(true);
+		Label3.setBackground(backcolor);
 		Label3.setFont(new Font("돋음",Font.PLAIN,20));
 		Label3.setBounds(10,210,130,40);
 		contentPane.add(Label3);
@@ -59,6 +66,7 @@ public class signup extends JFrame{
 		Label4.setText("닉네임");
 		Label4.setOpaque(true);
 		Label4.setFont(new Font("돋음",Font.PLAIN,20));
+		Label4.setBackground(backcolor);
 		Label4.setBounds(10,260,100,40);
 		contentPane.add(Label4);
 		
@@ -66,6 +74,7 @@ public class signup extends JFrame{
 		Label5.setText("e-mail");
 		Label5.setOpaque(true);
 		Label5.setFont(new Font("돋음",Font.PLAIN,20));
+		Label5.setBackground(backcolor);
 		Label5.setBounds(10,310,100,40);
 		contentPane.add(Label5);
 
@@ -128,5 +137,4 @@ public class signup extends JFrame{
 		contentPane.add(Button);
 
 	}
-
 }
