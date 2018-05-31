@@ -1,4 +1,5 @@
-package jikong;
+package se.smu;
+
 
 import java.util.*;
 
@@ -14,24 +15,23 @@ public class searchpw extends JFrame{
 	private JPanel contentPane;
 	private JTextField textField;
 
-	public searchpw(HashMap<String,Account> map)
+	public searchpw(final HashMap<String,Account> map)
 	{
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(200, 200, 400, 150);
+		Color backcolor = new Color(228,247,186);
 		contentPane = new JPanel();
 		contentPane.setBorder(new EmptyBorder(5, 5, 5, 5));
-		contentPane.setBackground(Color.GREEN);
+		contentPane.setBackground(backcolor);
 		contentPane.setLayout(null);
 		setContentPane(contentPane);
-		//contentPane.setBackground(Color.WHITE);
-		setTitle("               아이디찾기");
+		setTitle("               비밀번호 찾기");
 		
 		JLabel Label = new JLabel();
 		
 		Label.setText("아이디계정입력: ");
 		Label.setOpaque(true);
-		Label.setBackground(Color.GREEN);
-		//NewLabel.setBackground(Color.WHITE);
+		Label.setBackground(backcolor);
 		Label.setFont(new Font("돋음", Font.PLAIN, 15));
 		Label.setBounds(0, 20, 130, 30);
 		contentPane.add(Label);
