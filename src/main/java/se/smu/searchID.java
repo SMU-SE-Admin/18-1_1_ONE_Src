@@ -1,7 +1,6 @@
 package jikong;
 
 import java.util.*;
-
 import java.awt.event.*;
 import java.awt.*;
 
@@ -25,15 +24,15 @@ public class searchID extends JFrame{
 		contentPane.setLayout(null);
 		setContentPane(contentPane);
 		//contentPane.setBackground(Color.WHITE);
-		setTitle("¾ÆÀÌµğÃ£±â");
+		setTitle("ì•„ì´ë””ì°¾ê¸°");
 		
 		JLabel Label = new JLabel();
 		
-		Label.setText("ÀÌ¸ŞÀÏ°èÁ¤ÀÔ·Â:");
+		Label.setText("ì´ë©”ì¼ê³„ì •ì…ë ¥:");
 		Label.setOpaque(true);
 		Label.setBackground(backcolor);
 		//NewLabel.setBackground(Color.WHITE);
-		Label.setFont(new Font("µ¸À½", Font.PLAIN, 15));
+		Label.setFont(new Font("ë‹ìŒ", Font.PLAIN, 15));
 		Label.setBounds(10, 20, 120, 30);
 		contentPane.add(Label);
 
@@ -41,7 +40,7 @@ public class searchID extends JFrame{
 		textField.setBounds(130,20,200,30);
 		contentPane.add(textField);
 
-		JButton Button = new JButton("È®ÀÎ");
+		JButton Button = new JButton("í™•ì¸");
 		
 		
 		
@@ -83,7 +82,7 @@ public class searchID extends JFrame{
 		Button.setBounds(135, 60, 100, 40);
 		//Button.setBackground(Color.YELLOW);
 		Button.setForeground(Color.BLACK);
-		Button.setFont(new Font("µ¸À½", Font.PLAIN, 15));
+		Button.setFont(new Font("ë‹ìŒ", Font.PLAIN, 15));
 		contentPane.add(Button);
 
 	}
