@@ -1,4 +1,5 @@
-package jikong;
+package se.smu;
+
 
 import java.util.*;
 
@@ -9,11 +10,12 @@ import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.table.DefaultTableModel;
 
+
 public class searchOK extends JFrame{
 
-	private JPanel contentPane;
+private JPanel contentPane;
 	
-	public searchOK(HashMap<String,Account> map,String dicid,int ok)
+	public searchOK(final HashMap<String,Account> map,String dicid,int ok)
 	{
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(200, 200, 400, 170);
@@ -61,5 +63,6 @@ public class searchOK extends JFrame{
 		Button.setFont(new Font("µ¸À½", Font.PLAIN, 15));
 		contentPane.add(Button);
 	}
-	
 }
+
+
