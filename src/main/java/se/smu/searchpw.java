@@ -2,6 +2,7 @@ package jikong;
 
 
 import java.util.*;
+
 import java.awt.event.*;
 import java.awt.*;
 
@@ -24,14 +25,14 @@ public class searchpw extends JFrame{
 		contentPane.setBackground(backcolor);
 		contentPane.setLayout(null);
 		setContentPane(contentPane);
-		setTitle("               ë¹„ë°€ë²ˆí˜¸ ì°¾ê¸°");
+		setTitle("               ºñ¹Ğ¹øÈ£ Ã£±â");
 		
 		JLabel Label = new JLabel();
 		
-		Label.setText("ì•„ì´ë””ê³„ì •ì…ë ¥: ");
+		Label.setText("¾ÆÀÌµğ°èÁ¤ÀÔ·Â: ");
 		Label.setOpaque(true);
 		Label.setBackground(backcolor);
-		Label.setFont(new Font("ë‹ìŒ", Font.PLAIN, 15));
+		Label.setFont(new Font("µ¸À½", Font.PLAIN, 15));
 		Label.setBounds(0, 20, 130, 30);
 		contentPane.add(Label);
 
@@ -39,7 +40,7 @@ public class searchpw extends JFrame{
 		textField.setBounds(130,20,200,30);
 		contentPane.add(textField);
 
-		JButton Button = new JButton("í™•ì¸");
+		JButton Button = new JButton("È®ÀÎ");
 		Button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				EventQueue.invokeLater(new Runnable() {
@@ -68,7 +69,7 @@ public class searchpw extends JFrame{
 		Button.setBounds(135, 60, 100, 40);
 		Button.setBackground(Color.YELLOW);
 		Button.setForeground(Color.BLACK);
-		Button.setFont(new Font("ë‹ìŒ", Font.PLAIN, 15));
+		Button.setFont(new Font("µ¸À½", Font.PLAIN, 15));
 		contentPane.add(Button);
 	}
 }
