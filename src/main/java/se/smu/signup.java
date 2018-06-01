@@ -2,6 +2,7 @@ package jikong;
 
 
 import java.util.*;
+
 import java.awt.*;
 import javax.swing.*;
 
@@ -27,44 +28,44 @@ public class signup extends JFrame{
 		contentPane.setLayout(null);
 		contentPane.setBackground(backcolor);
 		setContentPane(contentPane);
-		setTitle("íšŒì›ê°€ì…");
+		setTitle("È¸¿ø°¡ÀÔ");
 		
 		JLabel Label = new JLabel();
-		Label.setText("             íšŒì›ê°€ì…");
+		Label.setText("             È¸¿ø°¡ÀÔ");
 		Label.setOpaque(true);
-		Label.setFont(new Font("ë‹ìŒ",Font.PLAIN,30));
+		Label.setFont(new Font("µ¸À½",Font.PLAIN,30));
 		Label.setBackground(backcolor);
 		Label.setBounds(10,0,350,75);
 		contentPane.add(Label);
 		
 		JLabel Label1 = new JLabel();
-		Label1.setText("ì•„ì´ë””");
+		Label1.setText("¾ÆÀÌµğ");
 		Label1.setOpaque(true);
-		Label1.setFont(new Font("ë‹ìŒ",Font.PLAIN,20));
+		Label1.setFont(new Font("µ¸À½",Font.PLAIN,20));
 		Label1.setBackground(backcolor);
 		Label1.setBounds(10,110,100,40);
 		contentPane.add(Label1);
 		
 		JLabel Label2 = new JLabel();
-		Label2.setText("ë¹„ë°€ë²ˆí˜¸");
+		Label2.setText("ºñ¹Ğ¹øÈ£");
 		Label2.setOpaque(true);
-		Label2.setFont(new Font("ë‹ìŒ",Font.PLAIN,20));
+		Label2.setFont(new Font("µ¸À½",Font.PLAIN,20));
 		Label2.setBackground(backcolor);
 		Label2.setBounds(10,160,100,40);
 		contentPane.add(Label2);
 		
 		JLabel Label3 = new JLabel();
-		Label3.setText("ë¹„ë°€ë²ˆí˜¸í™•ì¸");
+		Label3.setText("ºñ¹Ğ¹øÈ£È®ÀÎ");
 		Label3.setOpaque(true);
 		Label3.setBackground(backcolor);
-		Label3.setFont(new Font("ë‹ìŒ",Font.PLAIN,20));
+		Label3.setFont(new Font("µ¸À½",Font.PLAIN,20));
 		Label3.setBounds(10,210,130,40);
 		contentPane.add(Label3);
 		
 		JLabel Label4 = new JLabel();
-		Label4.setText("ë‹‰ë„¤ì„");
+		Label4.setText("´Ğ³×ÀÓ");
 		Label4.setOpaque(true);
-		Label4.setFont(new Font("ë‹ìŒ",Font.PLAIN,20));
+		Label4.setFont(new Font("µ¸À½",Font.PLAIN,20));
 		Label4.setBackground(backcolor);
 		Label4.setBounds(10,260,100,40);
 		contentPane.add(Label4);
@@ -72,7 +73,7 @@ public class signup extends JFrame{
 		JLabel Label5 = new JLabel();
 		Label5.setText("e-mail");
 		Label5.setOpaque(true);
-		Label5.setFont(new Font("ë‹ìŒ",Font.PLAIN,20));
+		Label5.setFont(new Font("µ¸À½",Font.PLAIN,20));
 		Label5.setBackground(backcolor);
 		Label5.setBounds(10,310,100,40);
 		contentPane.add(Label5);
@@ -97,7 +98,7 @@ public class signup extends JFrame{
 		textField5.setBounds(140,310,180,30);
 		contentPane.add(textField5);
 
-		JButton Button = new JButton("íšŒì›ê°€ì…ì™„ë£Œ");
+		JButton Button = new JButton("È¸¿ø°¡ÀÔ¿Ï·á");
 		Button.setBackground(Color.GREEN);
 		Button.setForeground(Color.BLACK);
 		Button.addActionListener(new ActionListener()
