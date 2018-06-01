@@ -2,6 +2,7 @@ package jikong;
 
 
 import java.util.*;
+
 import java.awt.event.*;
 import java.awt.*;
 
@@ -25,22 +26,22 @@ private JPanel contentPane;
 		contentPane.setLayout(null);
 		setContentPane(contentPane);
 		//contentPane.setBackground(Color.WHITE);
-		setTitle("ì•Œë¦¼!!");
+		setTitle("¾Ë¸²!!");
 		
 		
 		JLabel Label = new JLabel();
 		if(ok==0)
-			Label.setText("       í•´ë‹¹ ê³„ì •ì´ ì¡´ì¬í•˜ì§€ ì•ŠìŒ");
+			Label.setText("       ÇØ´ç °èÁ¤ÀÌ Á¸ÀçÇÏÁö ¾ÊÀ½");
 		else 
-			Label.setText("     ê³„ì •ì€ "+dicid+" ì…ë‹ˆë‹¤.");
+			Label.setText("     °èÁ¤Àº "+dicid+" ÀÔ´Ï´Ù.");
 		Label.setOpaque(true);
 		Label.setBackground(backcolor);
 		//NewLabel.setBackground(Color.WHITE);
-		Label.setFont(new Font("ë‹ìŒ", Font.PLAIN, 25));
+		Label.setFont(new Font("µ¸À½", Font.PLAIN, 25));
 		Label.setBounds(0, 10, 350, 45);
 		contentPane.add(Label);
 		
-		JButton Button = new JButton("í™•ì¸");
+		JButton Button = new JButton("È®ÀÎ");
 		Button.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				EventQueue.invokeLater(new Runnable() {
@@ -59,7 +60,7 @@ private JPanel contentPane;
 		Button.setBounds(135, 70, 100, 30);
 		Button.setBackground(Color.YELLOW);
 		Button.setForeground(Color.BLACK);
-		Button.setFont(new Font("ë‹ìŒ", Font.PLAIN, 15));
+		Button.setFont(new Font("µ¸À½", Font.PLAIN, 15));
 		contentPane.add(Button);
 	}
 }
