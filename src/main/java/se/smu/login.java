@@ -26,25 +26,25 @@ public class login extends JFrame{
 		//contentPane.setBackground(Color.WHITE);
 	
 	JLabel Label = new JLabel();
-	Label.setText("                	   ë¡œê·¸ì¸");
+	Label.setText("                	   ·Î±×ÀÎ");
 	Label.setOpaque(true);
-	Label.setFont(new Font("ë‹ìŒ",Font.PLAIN,30));
+	Label.setFont(new Font("µ¸À½",Font.PLAIN,30));
 	Label.setBackground(backcolor);
 	Label.setBounds(0,0,400,75);
 	contentPane.add(Label);
 
 	JLabel Label2 = new JLabel();
-	Label2.setText("ì•„ì´ë””");
+	Label2.setText("¾ÆÀÌµğ");
 	Label2.setOpaque(true);
-	Label2.setFont(new Font("ë‹ìŒ",Font.PLAIN,20));
+	Label2.setFont(new Font("µ¸À½",Font.PLAIN,20));
 	Label2.setBackground(backcolor);
 	Label2.setBounds(50,80,60,40);
 	contentPane.add(Label2);
 	
 	JLabel Label3 = new JLabel();
-	Label3.setText("ë¹„ë°€ë²ˆí˜¸");
+	Label3.setText("ºñ¹Ğ¹øÈ£");
 	Label3.setOpaque(true);
-	Label3.setFont(new Font("ë‹ìŒ",Font.PLAIN,20));
+	Label3.setFont(new Font("µ¸À½",Font.PLAIN,20));
 	Label3.setBackground(backcolor);
 	Label3.setBounds(50,130,100,40);
 	contentPane.add(Label3);
@@ -57,7 +57,7 @@ public class login extends JFrame{
 	textField2.setBounds(150,135,180,30);
 	contentPane.add(textField2);
 
-	JButton Button = new JButton("IDì°¾ê¸°");
+	JButton Button = new JButton("IDÃ£±â");
 	Button.setBackground(Color.GREEN);
 	Button.setForeground(Color.BLACK);
 	Button.addActionListener(new ActionListener()
@@ -84,11 +84,11 @@ public class login extends JFrame{
 	Button.setBounds(60,215,115,40);
 	contentPane.add(Button);
 
-	JButton Button2 = new JButton("PW ì°¾ê¸°");
+	JButton Button2 = new JButton("PW Ã£±â");
 	Button2.setBackground(Color.GREEN);
 	Button2.setForeground(Color.BLACK);
 	Button2.addActionListener(new ActionListener()
-			{ 
+			{
 		public void actionPerformed(ActionEvent arg0)
 		{
 			EventQueue.invokeLater(new Runnable()
@@ -111,7 +111,7 @@ public class login extends JFrame{
 	Button2.setBounds(60,260,115,40);
 	contentPane.add(Button2);
 
-	JButton Button3 = new JButton("íšŒì›ê°€ì…");
+	JButton Button3 = new JButton("È¸¿ø°¡ÀÔ");
 	Button3.setBackground(Color.GREEN);
 	Button3.setForeground(Color.BLACK);
 	Button3.addActionListener(new ActionListener()
@@ -140,7 +140,7 @@ public class login extends JFrame{
 	Button3.setBounds(195,215,115,40);
 	contentPane.add(Button3);
 
-	JButton Button4 = new JButton("ë¡œê·¸ì¸");
+	JButton Button4 = new JButton("·Î±×ÀÎ");
 	Button4.setBackground(Color.GREEN);
 	Button4.setForeground(Color.BLACK);
 	Button4.addActionListener(new ActionListener()
