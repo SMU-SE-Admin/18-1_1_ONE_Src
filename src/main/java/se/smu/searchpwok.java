@@ -4,8 +4,8 @@ package jikong;
 import java.util.*;
 
 import java.awt.event.*;
-
 import java.awt.*;
+
 import javax.swing.*;
 import javax.swing.border.*;
 import javax.swing.table.DefaultTableModel;
@@ -25,26 +25,26 @@ private JPanel contentPane;
 		setContentPane(contentPane);
 		//contentPane.setBackground(Color.WHITE);
 		
-		JButton Button = new JButton("í™•ì¸");
+		JButton Button = new JButton("È®ÀÎ");
 
-		setTitle("          ì•Œë¦¼!!");
+		setTitle("          ¾Ë¸²!!");
 		JLabel Label = new JLabel();
 		if(ok==0)
-			Label.setText("í•´ë‹¹ ê³„ì •ì´ ì¡´ì¬í•˜ì§€ ì•ŠìŒ");
+			Label.setText("ÇØ´ç °èÁ¤ÀÌ Á¸ÀçÇÏÁö ¾ÊÀ½");
 		else {
 			Account findpw = map.get(ID);
-			Label.setText(" ë¹„ë°€ë²ˆí˜¸ëŠ” "+findpw.getpasswd()+" ì…ë‹ˆë‹¤.");
+			Label.setText(" ºñ¹Ğ¹øÈ£´Â "+findpw.getpasswd()+" ÀÔ´Ï´Ù.");
 		}
 		Label.setBackground(Color.GREEN);
 		Label.setBounds(10, 10, 350, 45);
 		//NewLabel.setBackground(Color.WHITE);
-		Label.setFont(new Font("ë‹ìŒ", Font.PLAIN, 25));
+		Label.setFont(new Font("µ¸À½", Font.PLAIN, 25));
 		contentPane.add(Label);
 		
 		Button.setBounds(135, 70, 100, 30);
 		Button.setBackground(Color.YELLOW);
 		Button.setForeground(Color.BLACK);
-		Button.setFont(new Font("ë‹ìŒ", Font.PLAIN, 15));
+		Button.setFont(new Font("µ¸À½", Font.PLAIN, 15));
 		contentPane.add(Button);
 		
 		
